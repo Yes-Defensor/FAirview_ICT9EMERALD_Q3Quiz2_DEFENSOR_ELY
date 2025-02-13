@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+.btn {
+    background-color: #ff4081;
+    border: none;
+}
+.btn:hover {
+    background-color: #ff1a70;
+}
+#ticket {
+    display: none;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
